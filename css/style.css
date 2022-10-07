@@ -1,0 +1,227 @@
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+   font-weight: 400;
+   font-display: swap;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+   font-weight: 700;
+   font-display: swap;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+   font-weight: 900;
+   font-display: swap;
+   font-style: normal;
+}
+
+/* --------- ОБНУЛЕННЯ СТИЛІВ ТЕГІВ ------------ */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: none;
+   box-sizing: border-box;
+}
+
+li {
+   list-style: none;
+}
+
+a {
+   color: inherit;
+}
+
+a:link,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+
+input,
+button,
+textarea {
+   font-family: inherit;
+   font-size: inherit;
+}
+
+button {
+   cursor: pointer;
+   color: inherit;
+   background-color: inherit;
+}
+
+body {
+   line-height: 1;
+}
+
+/* ---------------------------- */
+
+.container {
+   margin: 0 auto;
+   /* background-color: aqua; */
+   max-width: 970px;
+}
+.second-container {
+   margin: 0 70px;
+}
+
+.title {
+   font-family: "Lato";
+   font-style: normal;
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+
+}
+
+.picture {
+   margin: 40px 0px 30px;
+}
+
+.second-title {
+   font-family: "Lato";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 150%;
+}
+
+.text {font-family: "Lato";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 160%;
+   margin: 30px 0;
+}
+
+.second-text {
+   font-family: "Lato";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 150%;
+      margin: 48px 0;
+      padding-left: 60px;
+}
+
+.list {
+   font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      margin: 24px 0;
+}
+
+.text p:not(:last-child) {
+   margin-bottom: 24px;
+}
+
+.list li {
+   margin: 4px 0;
+   padding-left: 30px;
+}
+
+.footer-block {
+   background-color: black;
+   width: 100%;
+   height: 100px;
+}
+
+.block-1 {
+   background-color: #77608d;
+   width: 1000px;
+   height: 800px;
+}
+
+.block-2 {
+   background-color: #7A956B;
+   width: 250px;
+   height: 100px;
+   text-align: right;
+   overflow: hidden;
+      display: inline-block;
+      visibility: hidden;
+}
+
+.block-3 {
+   background-color: #956b6b;
+   width: 250px;
+   height: 100px;
+   text-align: right;
+   overflow: auto;
+   display: inline-block;
+}
+
+.block-4 {
+   border-radius: 50%;
+   border: 10px solid#7A956B;
+   background-color: #a84949;
+   height: 800px;
+   width: 800px;
+   overflow: auto;
+   opacity: 0.6;
+   box-shadow: 10px 10px 10px 10px #632a2a, inset 10px 10px 10px 10px #632a2a;;
+}
+
+.block-5 {
+   border-radius: 50%;
+   outline: 13px solid #956b6b;
+   min-height: 700px;
+   min-width: 700px;
+   overflow: hidden;
+   /* display: inline-block; */
+   border: 10px dashed #7A956B;
+   margin: 0 auto;
+} 
+
+.image-test-first {
+   margin: 40px auto;
+   border-radius: 50%;
+   border: 10px solid #77608d;
+   outline: #977eaf;
+   box-shadow: 0px 0px 45px 35px #bbabed;
+   overflow: hidden;
+   /* max-width: 300px; */
+   max-width: 540px;
+   max-height: 540px;
+}
+
+.image-test-second {
+   margin: 40px auto;
+   border-radius: 50%;
+   border: 10px solid #65608d;
+   outline: #977eaf;
+   box-shadow: 0px 0px 45px 35px #bbabed;
+   overflow: hidden;
+   /* max-width: 300px; */
+   max-width: 540px;
+   max-height: 540px;
+}
